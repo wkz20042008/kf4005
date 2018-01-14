@@ -1,0 +1,59 @@
+markdown: kramdown
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+highlighter: rouge
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
+
+title: KF4005
+subtitle: Operating systems fundamentals
+authors: David Kendall, Alun Moon
+copyyear: 2016-2018
+#url: http://hesabu.net/kf4005
+raurl: assets/ra
+rraurl: assets/ra
+#url: http://localhost:4000
+#raurl: http://localhost:4000/assets/ra
+
+lab_links:
+   - title: Lab 1 
+     url: L01.html
+     #rep: blinky
+   - title: Lab 2 
+     url: L02.html
+     #rep: blinky
+   - title: Lab 3 
+     url: L03.html
+     #rep: buttons
+   - title: Lab 4 
+     url: L04.html
+     #rep: interrupt
+   - title: Lab 5 
+     url: L05.html
+     #rep: tasks
+   - title: Lab 6 
+     url: L06.html
+     #rep: peterson
+   - title: Lab 7 
+     url: L07.html
+     #rep: semaphore
+   - title: Lab 8 
+     url: L08.html
+     #rep: ringbuffer
+   - title: Lab 9 
+     url: L09.html
+     #rep: deadlock
+   - title: Lab 10 
+     url: L10.html
+     #rep: blinky
+   - title: Lab 11 
+     url: L11.html
+     #rep: blinky
+
+
+right_links:
+  - title: View on GitHub
+    url: https://github.com/davidkendall/kf4005
+
+repo: https://github.com/davidkendall/kf4005
