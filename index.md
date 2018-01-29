@@ -46,7 +46,7 @@ a variety of OS services.
 
 |   |    |
 |---|:---|
-**Lecture (Block B)** &nbsp;| Mon 10.00 - 11.00 ELA 102a
+**Lecture (Block B)** &nbsp;| Mon 11.00 - 12.00 ELA 102a
 **Lecture (Block A)** | Tue 10.00 - 11.00 ELA 002
 **Lab/Seminar**       | Tue 15.00 - 17.00 PAN S3
 **Lab/Seminar**       | Wed 09.00 - 11.00 PAN F2/F3
@@ -178,6 +178,7 @@ sections cover more advanced material.
   - Gnu/Linux Command-Line Tools Summary [www](http://linux.die.net/Linux-CLI/), [pdf](http://tldp.org/LDP/GNU-Linux-Tools-Summary/GNU-Linux-Tools-Summary.pdf)
   - Advanced Bash-Scripting Guide [www](http://tldp.org/LDP/abs/html/)
   - Raymond, E., [The Art of Unix Programming](http://www.catb.org/esr/writings/taoup/), Addison Wesley, 2008
+  - The IEEE and The Open Group, [POSIX.1-2008](http://pubs.opengroup.org/onlinepubs/9699919799/), 2001-2016
 * **Git**
   - [Git home page](https://git-scm.com)
   - [Git official documentation](https://git-scm.com/doc)
