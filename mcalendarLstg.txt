@@ -1,0 +1,108 @@
+1	//Construct calendar for a given year, month (1--12).
+2	#include <stdio.h>
+3	#include <stdlib.h>
+4	
+5	#define true -1
+6	#define false 0
+7	
+8	int year;
+9	char * dayNames[] 
+10	    = {"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"};
+11	char * monNames[] 
+12	    = {"January", "February", "March", "April", "May", "June", "July", 
+13	      "August", "September", "October", "November", "December"};
+14	int monLen[] 
+15	    = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+16	
+17	int isLeap(int yr) {
+18	  if ((yr % 4) == 0) {
+19	    if ((yr % 100) == 0)
+20	      return ((yr % 400) == 0);
+21	    else 
+22	      return true;
+23	  }
+24	  else
+25	    return false;
+26	}
+27	
+28	int stday(int yr, int mth) {
+29	  //pre-condition: year is since 1800.
+30	  //Returns start day of the year
+31	  int d = 3, y, m;
+32	  for (y = 1800; y < yr; y++) {
+33	    d++;
+34	    if (isLeap(y))
+35	      d++;
+36	  }
+37	  for (m=0; m<mth; m++)
+38	    d += monLen[m];
+39	  d %= 7;
+40	  return d;
+41	}
+42	
+43	void printMonth(int m) {
+44	  int d, col=stday(year, m);
+45	  printf("%s\n", monNames[m]);
+46	  for (d = 0; d < 7; d++)
+47	    printf("%s\t", dayNames[d]);
+48	  printf("\n");
+49	  for (d = 0; d < col; d++)
+50	    printf("\t");
+51	  d = 1;
+52	  while (d <= monLen[m]) {
+53	    printf("%u\t", d);
+54	    d++;
+55	    col++;
+56	    if (col == 7) {
+57	      printf("\n");
+58	      col = 0;
+59	    }
+60	  }
+61	  printf("\n\n");
+62	}
+63	    
+64	void printAll() {
+65	  int m;
+66	  for (m = 0; m < 12; m++)
+67	    printMonth(m);
+68	}      
+69	
+70	void makeCalendar(int yr) {
+71	  if (yr < 1800) {
+72	  exit(0);
+73	  }
+74	   else
+75	    year = yr;
+76	  if (isLeap(year))
+77	    monLen[1]++;  //Add leap day to February!
+78	}
+79	  
+80	int main(int argc, char ** argv)  {
+81	  int year, m;
+82	
+83	  if (argc < 2) {
+84	    printf("Calendar for years 1800-2100.\n");
+85	    printf("Usage: %s <yyyy> [mth(1--12)]\n", argv[0]);
+86	    printf("missing month => entire year is printed.\n");
+87	    return;
+88	  }
+89	
+90	  year = atoi(argv[1]);
+91	  if (year < 1800 || year > 2100) { 
+92	    printf("Invalid parameter: year must be in range 1800--2100\n");
+93	    return;
+94	  }
+95	
+96	  makeCalendar(year);
+97	  printf("Calendar for %s\n\n", argv[1]);
+98	  if (argc < 3)
+99	    printAll();
+100	  else {
+101	    m = atoi(argv[2]);
+102	    if (m >= 1 && m <= 12)
+103	      printMonth(m-1);
+104	    else
+105	      printAll();
+106	  }
+107	} //end of main()
+108	

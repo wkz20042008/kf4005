@@ -1,0 +1,8 @@
+michael,33
+rosie,17
+john,60
+phil,76
+mary,29
+anna,54
+julia,24
+ken,48
