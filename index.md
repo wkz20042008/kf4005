@@ -128,8 +128,8 @@ Feedback on formative assessment will be given during the workshop sessions.
 Formal written feedback will be provided on summative assessment. The assignment
 will assess all of the MLOs.
 
-<!--<a class="btn btn-large btn-primary" href="{{site.raurl}}/assgn.pdf"><i-->
-<!--class="icon-upload-alt"></i>Download Assignment Specification</a>-->
+<a class="btn btn-large btn-primary" href="{{site.raurl}}/assgn.pdf"><i
+class="icon-upload-alt"></i>Download Assignment Specification</a>
 
 # Recommended Reading
 

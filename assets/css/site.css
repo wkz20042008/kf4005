@@ -89,7 +89,7 @@ body {
 code {
   padding: 1px 2px;
   font-size: 100%;
-  /*color: #526d7a;*/
+  color: #526d7a;
   background-color: transparent;
   border-radius: 0; }
 
@@ -100,10 +100,12 @@ code {
   background-color: #f9f9f9; }
 
 .alert, .code, .example, .note, .warning, .danger, .question, .exercise {
-  background: #dde4e9;
+  background: #eee;
+  /*background: #dde4e9;*/
   border-width: 1px 2px 1px 10px;
   border-style: solid;
-  padding: 5px 1.5em;
+  padding: 5px 1em;
+  /*padding: 5px 1.5em;*/
   margin-right: 0.2em;
   overflow: auto; }
 

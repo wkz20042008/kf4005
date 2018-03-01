@@ -9,7 +9,7 @@ license: not needed
 Your aim in this lab is to become familar with the management and use
 of simple databases using SQL. You will use the [MySQL](https://www.mysql.com/)
 database management system (DBMS) for the practical work. MySQL is the
-most widely used DBMS in the world. The lab assumes that you are working
+most widely used DBMS currently available. The lab assumes that you are working
 in a Linux environment (Ubuntu 16.04) but most methods that you see here
 will work in any environment (e.g. Mac OS/X, Windows, etc).
 
@@ -87,7 +87,7 @@ At the end of this lab, you should know how to:
 
 ## Connecting to and disconnecting from the server
 
-1. We can connect to the server as the root user like this:
+1. You can connect to the server as the root user like this:
 
      ```sh
      $ mysql -u root -p
@@ -136,6 +136,80 @@ At the end of this lab, you should know how to:
    avoids the need to talk about users and permissions. We'll show you how to
    create other users and assign permissions to them at the end.
 
+## Interacting with the DBMS
+
+1. Try out some of the basic commands, e.g.
+
+    1. `SHOW DATABASES;`
+    1. `SHOW TABLE IN performance_schema`
+    1. `SHOW COLUMNS IN performance_schema.users;`
+    1. `DESCRIBE performance_schema.users;`
+
+1. Now create a database of your own and select it for use, e.g.
+
+     ```SQL
+     mysql> CREATE DATABASE menagerie;
+     mysql> USE menagerie;
+     ```
+
+## Create a table and load data into it
+
+1. Create a table to hold data about pets, e.g.
+
+     ```SQL
+     mysql> CREATE TABLE pet (name VARCHAR(20), owner VARCHAR(20),
+         -> species VARCHAR(20), sex CHAR(1), birth DATE, death DATE);
+     ```
+
+1. An easy way to get data into your table is to load it from a simple
+text file. Download the file [pet.txt]({{site.url}}/pet.txt) to your
+current working directory. This file contains one entry per line, where each
+line is a tab-separated list of attribute values. You can load this
+file into your table as follows:
+
+     ```SQL
+     mysql> LOAD DATA LOCAL INFILE 'pet.txt' INTO TABLE pet;
+     ```
+
+1. Examine the contents of your table
+
+     ```SQL
+     mysql> SELECT * FROM pet;
+     ```
+
+1. Write queries for the following
+
+    1. List the name, species and date of birth of all of Harold's pets
+    1. List the name, species and date of birth of all the male pets
+    1. List the name, owner and date of death of all pets who have died
+
+1. Add a new row to your pet table to record the details of a pet with the
+following details. Check your table after you have made the new entry.
+
+     ```
+     'Puffball', 'Diane', 'hamster', 'f', '1999-03-30', NULL
+     ```
+
+1. Add a new column to the pet table to record the weight of each pet. Update
+the table to contain weights as follows:
+
+     ```
+     name       weight
+
+     Fluffy      2345
+     Claws       4321
+     Slim       10123
+     Buffy       6543
+     Puffball      45
+     ```
+1. Write queries for the following
+
+    1. List the owners and the weight of their heaviest pet
+    1. List all species and the weight of the lightest member of each
+species
+    1. Rewrite the previous query to show the list in weight order from
+heaviest to lightest
+
 ## Creating a new user and granting permissions
 
 1. Work through [Etel Sverdlov's
@@ -150,7 +224,10 @@ At the end of this lab, you should know how to:
     * ensure that the student user has all privileges in the KF4005 database but
    no privileges to do anything else
 
+1. Create a couple of tables, insert and delete some data, perform some
+queries. Check that you are not able to use any databases other than KF4005.
 
+## Further work
 
-
+1. Work carefully through the tutorial at [MySQL.com](https://dev.mysql.com/doc/refman/5.7/en/tutorial.html) to fill in the gaps left by these exercises.
 
