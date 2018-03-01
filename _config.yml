@@ -10,11 +10,10 @@ title: KF4005
 subtitle: Operating systems fundamentals
 authors: David Kendall, Alun Moon
 copyyear: 2016-2018
-#url: http://hesabu.net/kf4005
-#baseurl: kf4005
-url: ""
-raurl: assets/ra
-rraurl: assets/ra
+url: http://hesabu.net
+baseurl: /kf4005
+raurl: /assets/ra
+rraurl: /assets/ra
 #url: http://localhost:4000
 #raurl: http://localhost:4000/assets/ra
 
