@@ -91,18 +91,18 @@ change during the course of the module.
 
 | Week   | W/c   | Lecture A   | Lecture B   | Practical   |
 | :----: | :---: | :---------: | :---------: | :---------: |
-**1** | 15-Jan &nbsp; | [Introduction and overview]({{site.raurl}}/A01.pdf) &nbsp; | [Introduction to Unix/Linux]({{site.raurl}}/B01.pdf) &nbsp; | [Introduction to lab environment and tools](L01.html)
-**2** | 22-Jan &nbsp; | [C programming for OS]({{site.raurl}}/A02.pdf) | [Linux command line]({{site.raurl}}/B02.pdf) &nbsp; <br/> Reading: [SHO16, Chp. 1-6, 9]({{site.raurl}}/TLCL.pdf)  | [Learning the Linux command line](L02.html)
-**3** | 29-Jan &nbsp; | [Process concept]({{site.raurl}}/A03.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 4](http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-intro.pdf)| [Shell scripts]({{site.raurl}}/B03.pdf) &nbsp; <br/> Reading: [SHO16, Chp. 24, 25, 27]({{site.raurl}}/TLCL.pdf) | [Writing shell scripts](L03.html)
-**4** | 05-Feb &nbsp; | [Process scheduling]({{site.raurl}}/A04.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 7](http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched.pdf)| [Linux processes]({{site.raurl}}/B04.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 5](http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-api.pdf)| [Shell functions. Working with processes](L04.html)
-**5** | 12-Feb &nbsp; | [Memory management&nbsp;1]({{site.raurl}}/A05.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 13](http://pages.cs.wisc.edu/~remzi/OSTEP/vm-intro.pdf)| [Linux IPC]({{site.raurl}}/B05.pdf) &nbsp; <br/> Reading: [SHO16, pp 118-121, 496-502]({{site.raurl}}/TLCL.pdf)| [Linux IPC: Signals and pipes](L05.html)
-**6** | 19-Feb &nbsp; | [Memory management&nbsp;2]({{site.raurl}}/A06.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 15](http://pages.cs.wisc.edu/~remzi/OSTEP/vm-mechanism.pdf)| [POSIX threads]({{site.raurl}}/B06.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 26](http://pages.cs.wisc.edu/~remzi/OSTEP/threads-intro.pdf), [A-D15 Chp. 27.1-2](http://pages.cs.wisc.edu/~remzi/OSTEP/threads-api.pdf) | [Threads; basic memory management in the shell](L06.html)
-**7** | 26-Feb &nbsp; | [Introduction to SQL]({{site.raurl}}/A07.pdf) | [Introduction to SQL]({{site.raurl}}/B07.pdf) | [SQL practical](L07.html) &nbsp; <br/> Introduction to the assignment
-**8** | 05-Mar &nbsp; | [Storage management&nbsp;1]({{site.raurl}}/A08.pdf) &nbsp; <br/> Reading: [AD-15 Chp. 39](http://pages.cs.wisc.edu/~remzi/OSTEP/file-intro.pdf) | [Linux file system]({{site.raurl}}/B08.pdf) &nbsp; | [Working with file systems](L08.html)
-**9** | 12-Mar &nbsp; | [Storage management&nbsp;2]({{site.raurl}}/A09.pdf) &nbsp; <br/> Reading: [SGG12 Chp. 11] | [More shell - text processing]({{site.raurl}}/B09.pdf) &nbsp; <br/> Reading: [SHO16, Chp. 19, 20]({{site.raurl}}/TLCL.pdf) | [Shell - text processing](L09.html)
-**10** | 19-Mar &nbsp; | [Protection and security&nbsp;1]({{site.raurl}}/A10.pdf) &nbsp; | [Linux protection and security]({{site.raurl}}/B10.pdf) &nbsp; | [Linux protection and security](L10.html)
-**11** | 16-Apr &nbsp; | [Protection and security&nbsp;2]({{site.raurl}}/A11.pdf) &nbsp; | [Linux devices]({{site.raurl}}/B11.pdf) &nbsp; | [Assignment review](L11.html)
-**12** | 23-Apr &nbsp; | [Review]({{site.raurl}}/A12.pdf) &nbsp; | [Review]({{site.raurl}}/B12.pdf) &nbsp; | [Practical assignment completion](L12.html)
+**1** | 15-Jan &nbsp; | [Introduction and overview]({{site.baseurl}}{{site.raurl}}/A01.pdf) &nbsp; | [Introduction to Unix/Linux]({{site.baseurl}}{{site.raurl}}/B01.pdf) &nbsp; | [Introduction to lab environment and tools](L01.html)
+**2** | 22-Jan &nbsp; | [C programming for OS]({{site.baseurl}}{{site.raurl}}/A02.pdf) | [Linux command line]({{site.baseurl}}{{site.raurl}}/B02.pdf) &nbsp; <br/> Reading: [SHO16, Chp. 1-6, 9]({{site.baseurl}}{{site.raurl}}/TLCL.pdf)  | [Learning the Linux command line](L02.html)
+**3** | 29-Jan &nbsp; | [Process concept]({{site.baseurl}}{{site.raurl}}/A03.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 4](http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-intro.pdf)| [Shell scripts]({{site.baseurl}}{{site.raurl}}/B03.pdf) &nbsp; <br/> Reading: [SHO16, Chp. 24, 25, 27]({{site.baseurl}}{{site.raurl}}/TLCL.pdf) | [Writing shell scripts](L03.html)
+**4** | 05-Feb &nbsp; | [Process scheduling]({{site.baseurl}}{{site.raurl}}/A04.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 7](http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched.pdf)| [Linux processes]({{site.baseurl}}{{site.raurl}}/B04.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 5](http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-api.pdf)| [Shell functions. Working with processes](L04.html)
+**5** | 12-Feb &nbsp; | [Memory management&nbsp;1]({{site.baseurl}}{{site.raurl}}/A05.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 13](http://pages.cs.wisc.edu/~remzi/OSTEP/vm-intro.pdf)| [Linux IPC]({{site.baseurl}}{{site.raurl}}/B05.pdf) &nbsp; <br/> Reading: [SHO16, pp 118-121, 496-502]({{site.baseurl}}{{site.raurl}}/TLCL.pdf)| [Linux IPC: Signals and pipes](L05.html)
+**6** | 19-Feb &nbsp; | [Memory management&nbsp;2]({{site.baseurl}}{{site.raurl}}/A06.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 15](http://pages.cs.wisc.edu/~remzi/OSTEP/vm-mechanism.pdf)| [POSIX threads]({{site.baseurl}}{{site.raurl}}/B06.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 26](http://pages.cs.wisc.edu/~remzi/OSTEP/threads-intro.pdf), [A-D15 Chp. 27.1-2](http://pages.cs.wisc.edu/~remzi/OSTEP/threads-api.pdf) | [Threads; basic memory management in the shell](L06.html)
+**7** | 26-Feb &nbsp; | [Introduction to SQL]({{site.baseurl}}{{site.raurl}}/A07.pdf) | [Introduction to SQL]({{site.baseurl}}{{site.raurl}}/B07.pdf) | [SQL practical](L07.html) &nbsp; <br/> Introduction to the assignment
+**8** | 05-Mar &nbsp; | [Storage management&nbsp;1]({{site.baseurl}}{{site.raurl}}/A08.pdf) &nbsp; <br/> Reading: [AD-15 Chp. 39](http://pages.cs.wisc.edu/~remzi/OSTEP/file-intro.pdf) | [Linux file system]({{site.baseurl}}{{site.raurl}}/B08.pdf) &nbsp; | [Working with file systems](L08.html)
+**9** | 12-Mar &nbsp; | [Storage management&nbsp;2]({{site.baseurl}}{{site.raurl}}/A09.pdf) &nbsp; <br/> Reading: [SGG12 Chp. 11] | [More shell - text processing]({{site.baseurl}}{{site.raurl}}/B09.pdf) &nbsp; <br/> Reading: [SHO16, Chp. 19, 20]({{site.baseurl}}{{site.raurl}}/TLCL.pdf) | [Shell - text processing](L09.html)
+**10** | 19-Mar &nbsp; | [Protection and security&nbsp;1]({{site.baseurl}}{{site.raurl}}/A10.pdf) &nbsp; | [Linux protection and security]({{site.baseurl}}{{site.raurl}}/B10.pdf) &nbsp; | [Linux protection and security](L10.html)
+**11** | 16-Apr &nbsp; | [Protection and security&nbsp;2]({{site.baseurl}}{{site.raurl}}/A11.pdf) &nbsp; | [Linux devices]({{site.baseurl}}{{site.raurl}}/B11.pdf) &nbsp; | [Assignment review](L11.html)
+**12** | 23-Apr &nbsp; | [Review]({{site.baseurl}}{{site.raurl}}/A12.pdf) &nbsp; | [Review]({{site.baseurl}}{{site.raurl}}/B12.pdf) &nbsp; | [Practical assignment completion](L12.html)
 
 <br/>
 
@@ -128,7 +128,7 @@ Feedback on formative assessment will be given during the workshop sessions.
 Formal written feedback will be provided on summative assessment. The assignment
 will assess all of the MLOs.
 
-<a class="btn btn-large btn-primary" href="{{site.raurl}}/assgn.pdf"><i
+<a class="btn btn-large btn-primary" href="{{site.baseurl}}{{site.raurl}}/assgn.pdf"><i
 class="icon-upload-alt"></i>Download Assignment Specification</a>
 
 # Recommended Reading
@@ -148,10 +148,10 @@ G., [Operating System Concepts](https://www.amazon.co.uk/Operating-System-Concep
   - **[A-D15]** Arpaci-Dusseau, R. and Arpaci-Dusseau, A., [Operating systems: Three easy pieces](http://www.ostep.org), Arpaci-Dusseau Books, 2015
 
   - **[DOW08]** Downey, A., [The Little Book of
-Semaphores](http://www.greenteapress.com/semaphores/) ([Local copy]({{site.raurl}}/downey08semaphores.pdf)), Green Tea Press, 2002 <br/> A free text book by Allen Downey that introduces a variety of interesting synchronisation
+Semaphores](http://www.greenteapress.com/semaphores/) ([Local copy]({{site.baseurl}}{{site.raurl}}/downey08semaphores.pdf)), Green Tea Press, 2002 <br/> A free text book by Allen Downey that introduces a variety of interesting synchronisation
 problems and their solution using semaphores.
 
-  - **[SHO16]** Shotts. W., [The Linux Command Line](http://linuxcommand.org/tlcl.php) ([Local copy]({{site.raurl}}/TLCL.pdf)), No Starch Press, 2016 <br/> A free text book by William Shotts on using the Linux command line.
+  - **[SHO16]** Shotts. W., [The Linux Command Line](http://linuxcommand.org/tlcl.php) ([Local copy]({{site.baseurl}}{{site.raurl}}/TLCL.pdf)), No Starch Press, 2016 <br/> A free text book by William Shotts on using the Linux command line.
 
 # Resources
 
