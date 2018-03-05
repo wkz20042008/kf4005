@@ -1,0 +1,3 @@
+#! /bin/bash
+sudo mount -t cifs -o username=student,noperm,cache=loose //nas3.offcampusnetwork.co.uk/modules /mnt/nas
+
