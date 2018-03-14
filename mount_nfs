@@ -1,0 +1,2 @@
+#!/bin/bash
+sudo mount 172.16.2.8:/var/nfs /mnt
