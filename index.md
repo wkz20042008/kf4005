@@ -2,7 +2,7 @@
 layout: default
 title: Home
 ---
-# Introduction
+## Introduction
 
 
 <p class="lead">
@@ -33,16 +33,16 @@ programme by providing you with opportunities to identify and
 apply appropriate techniques for the application and implementation of
 a variety of OS services.
 
-# Module Team
+## Staff Information
 
 |   |    |
 |---|:---|
 |Module Tutor &nbsp;  | [David Kendall](http://computing.northumbria.ac.uk/staff/cgdk2)|
-|Lecturer      | [Alun Moon](http://computing.northumbria.ac.uk/staff/cgam1)|
+|Lecturer      | [Alun Moon](https://www.northumbria.ac.uk/about-us/our-staff/m/alun-moon/)|
 |Lecturer      | [Kezhi Wang](https://sites.google.com/site/drkezhiwang/)|
 
 
-# Teaching Arrangements
+## Teaching Arrangements
 
 |   |    |
 |---|:---|
@@ -58,7 +58,7 @@ lab/seminar sessions every week. Refer to your personal timetable to identify
 the lab session that you should attend.
 </p>
 
-# Synopsis
+## Synopsis
 
 This module introduces you to the fundamentals of operating systems:
 processes/threads, communication, memory management, file systems, I/O,
@@ -82,7 +82,7 @@ implementation, directories, free space allocation;
 shell, Python) for monitoring, investigating and administering an operating
 system and its resources.
 
-# Teaching Plan
+## Teaching Plan / Learning Materials
 
 The following is a *provisional* guide to the organisation of
 this part of the module for this year. These arrangements are subject to
@@ -114,24 +114,28 @@ which the expected student workload is 200 hours. Over the course of a
 this module.
 </p>
 
-# Assessment
+## Assessment
 
 Formative assessment comprises a variety of theoretical and practical exercises,
 with opportunities for discussion with tutors and colleagues.
+Feedback on formative assessment will be given during the workshop sessions.
 
 Summative assessment comprises a single coursework assignment. You will be
 required to undertake a number of theoretical and practical, lab-based
 exercises, leading to the completion of a set of questions about the work that
-you have done.
+you have done. It is your responsibility to ensure that you are familiar
+with the assessment regulations and that you comply with them in providing your 
+summative assessment.
 
-Feedback on formative assessment will be given during the workshop sessions.
+[**Assessment regulations and guidance**](https://www.northumbria.ac.uk/about-us/university-services/academic-registry/quality-and-teaching-excellence/assessment/guidance-for-students/)
+
 Formal written feedback will be provided on summative assessment. The assignment
 will assess all of the MLOs.
 
 <a class="btn btn-large btn-primary" href="{{site.baseurl}}{{site.raurl}}/assgn.pdf"><i
 class="icon-upload-alt"></i>Download Assignment Specification</a>
 
-# Recommended Reading
+## Reading List
 
 There is no essential textbook for this module. [SGG14] is an excellent
 introduction to operating systems in general and can be used to supplement the
@@ -153,7 +157,7 @@ problems and their solution using semaphores.
 
   - **[SHO16]** Shotts. W., [The Linux Command Line](http://linuxcommand.org/tlcl.php) ([Local copy]({{site.baseurl}}{{site.raurl}}/TLCL.pdf)), No Starch Press, 2016 <br/> A free text book by William Shotts on using the Linux command line.
 
-# Resources
+## Resources
 
 * **Programming in C/C++**
   - **[KOC04]** Kochan, S., [Programming in C](http://www.amazon.co.uk/Programming-Developers-Library-Stephen-Kochan/dp/0672326663/ref=sr_1_5?ie=UTF8&amp;qid=1316089219&amp;sr=8-5), Sams, 2004 <br/>
