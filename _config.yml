@@ -53,8 +53,8 @@ lab_links:
      #rep: blinky
 
 
-right_links:
-  - title: View on GitHub
-    url: https://github.com/davidkendall/kf4005
+#right_links:
+  #- title: View on GitHub
+    #url: https://github.com/davidkendall/kf4005
 
-repo: https://github.com/davidkendall/kf4005
+#repo: https://github.com/davidkendall/kf4005
