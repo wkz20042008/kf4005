@@ -162,15 +162,18 @@ problems and their solution using semaphores.
   - **[KOC04]** Kochan, S., [Programming in C](http://www.amazon.co.uk/Programming-Developers-Library-Stephen-Kochan/dp/0672326663/ref=sr_1_5?ie=UTF8&amp;qid=1316089219&amp;sr=8-5), Sams, 2004 <br/>
 A gentle introduction to programming in C. I think it's a better starting
 point than the much-recommended Kernighan and Ritchie.
-
   - **[PRI02]** Prinz, P., [C Pocket Reference](http://www.amazon.co.uk/C-Pocket-Reference-Peter-Prinz/dp/0596004362/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1285570456&amp;sr=1-1), O'Reilly, 2002 <br/>
 A concise C reference. Very cheap. Less than a fiver the last time I
 looked. I suggest you buy a copy and read it from cover to cover.
+  - **[BBD91]**  Banahan, M., Brady, D.  and Doran, M., [The C Book](http://publications.gbdirect.co.uk/c_book/), Currently out of print, 1991. <br/>
+Although this book is no longer in print, it remains a good introduction to the C language.
+There's a [free pdf version](http://publications.gbdirect.co.uk/c_book/thecbook.pdf)
+available ([local copy]({{site.baseurl}}{{site.raurl}}/thecbook.pdf)).
   - [Essential C](http://cslibrary.stanford.edu/101/EssentialC.pdf), Parlante, N, Stanford University, 2003 <br/>
 A very good summary of the basic features of the C language.
   - [Learn C Programming](http://tutorialspoint.com/cprogramming/) <br/> A nice online C programming tutorial site.
-  - [C Programming](http://www.imada.sdu.dk/~svalle/courses/dm14-2005/mirror/c/) <br/>
-An online course on C Programming from the University of Strathclyde.
+  - [C Programming](http://kom.aau.dk/~jdn/edu/doc/c/tutorials/c-course-strathclyde/) <br/>
+An online course on C Programming, originally from the University of Strathclyde.
   - [Practical Programming in C](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-087-practical-programming-in-c-january-iap-2010/index.htm) <br/> A detailed introduction to C from the MIT Open Courseware catalogue. If you skip the material on data structures and concurrency, you're left
 with a good basic introduction to C. The data structures and concurrency
 sections cover more advanced material.
