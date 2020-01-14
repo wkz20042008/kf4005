@@ -51,7 +51,7 @@ a variety of OS services.
 
 
 <p class="text-info">
-You should attend <em>both</em> lecture sessions and <em>one</em> of the
+You should attend lecture session and <em>one</em> of the
 lab/seminar sessions every week. Refer to your personal timetable to identify
 the lab session that you should attend.
 </p>
