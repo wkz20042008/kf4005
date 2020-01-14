@@ -161,7 +161,8 @@ problems and their solution using semaphores.
 A gentle introduction to programming in C. I think it's a better starting
 point than the much-recommended Kernighan and Ritchie.
   - **[PRI02]** Prinz, P., [C Pocket Reference](http://www.amazon.co.uk/C-Pocket-Reference-Peter-Prinz/dp/0596004362/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1285570456&amp;sr=1-1), O'Reilly, 2002 <br/>
-A concise C reference. Very cheap. Less than a fiver the last time I
+A concise C reference. Very c
+heap. Less than a fiver the last time I
 looked. I suggest you buy a copy and read it from cover to cover.
   - **[BBD91]**  Banahan, M., Brady, D.  and Doran, M., [The C Book](http://publications.gbdirect.co.uk/c_book/), Currently out of print, 1991. <br/>
 Although this book is no longer in print, it remains a good introduction to the C language.
