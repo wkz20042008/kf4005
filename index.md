@@ -46,7 +46,7 @@ a variety of OS services.
 |   |    |
 |---|:---|
 **Lecture 1** &nbsp;| Mon 12.00 - 13.00 NBD 252
-**Lecture 2** | Wed 09.00 - 10.00 NBD 442
+;**Lecture 2** | Wed 09.00 - 10.00 NBD 442  
 **Lab/Seminar**       | Tue 11.00-13.00 CIS 201
 **Lab/Seminar**       | Wed 13.00-15.00 CIS 202
 
