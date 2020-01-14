@@ -149,7 +149,7 @@ G., [Operating System Concepts](https://www.amazon.co.uk/Operating-System-Concep
   - **[A-D15]** Arpaci-Dusseau, R. and Arpaci-Dusseau, A., [Operating systems: Three easy pieces](http://www.ostep.org), Arpaci-Dusseau Books, 2015
 
   - **[DOW08]** Downey, A., [The Little Book of
-Semaphores](http://www.greenteapress.com/semaphores/) ([Local copy]({{site.baseurl}}{{site.raurl}}/downey08semaphores.pdf)), Green Tea Press, 2002 <br/> A free text book by Allen Downey that introduces a variety of interesting synchronisation
+Semaphores](http://www.greenteapress.com/semaphores/), Green Tea Press, 2002 <br/> A free text book by Allen Downey that introduces a variety of interesting synchronisation
 problems and their solution using semaphores.
 
   - **[SHO16]** Shotts. W., [The Linux Command Line](http://linuxcommand.org/tlcl.php) ([Local copy]({{site.baseurl}}{{site.raurl}}/TLCL.pdf)), No Starch Press, 2016 <br/> A free text book by William Shotts on using the Linux command line.
