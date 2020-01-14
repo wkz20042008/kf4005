@@ -106,10 +106,11 @@ change during the course of the module.
 
 <p class="text-info">
 In addition to the taught sessions, you are expected to undertake
-independent and directed learning. This is a 20-credit module, for
+independent and directed learning. 
+[comment]: <> (This is a 20-credit module, for
 which the expected student workload is 200 hours. Over the course of a
 15-week semester, you should be spending about 13 hours per week on
-this module.
+this module.)
 </p>
 
 ## Assessment
