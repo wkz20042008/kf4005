@@ -99,7 +99,7 @@ change during the course of the module.
 **8** | 16-Mar &nbsp; | [Storage management&nbsp;1]({{site.baseurl}}{{site.raurl}}/A08.pdf) &nbsp; <br/> Reading: [AD-15 Chp. 39](http://pages.cs.wisc.edu/~remzi/OSTEP/file-intro.pdf) | [Linux file system]({{site.baseurl}}{{site.raurl}}/B08.pdf) &nbsp; | [Processes and memory management](L08.html)
 **9** | 23-Mar &nbsp; | [Storage management&nbsp;2]({{site.baseurl}}{{site.raurl}}/A09.pdf) &nbsp; <br/> Reading: [SGG12 Chp. 11] | [More shell - text processing]({{site.baseurl}}{{site.raurl}}/B09.pdf) &nbsp; <br/> Reading: [SHO16, Chp. 19, 20]({{site.baseurl}}{{site.raurl}}/TLCL.pdf) | [Working with file systems](L09.html)
 **10** | 20-Apr &nbsp; | [Protection and security&nbsp;1]({{site.baseurl}}{{site.raurl}}/A10.pdf) &nbsp; | [Linux protection and security]({{site.baseurl}}{{site.raurl}}/B10.pdf) &nbsp; | [Shell - text processing](L10.html)
-**11** | 27-Apr &nbsp; | [Protection and security&nbsp;2]({{site.baseurl}}{{site.raurl}}/A11.pdf) &nbsp; | [Linux devices]({{site.baseurl}}{{site.raurl}}/B11.pdf) &nbsp; | [Assignment review](L11.html)
+**11** | 27-Apr &nbsp; | [Protection and security&nbsp;2]({{site.baseurl}}{{site.raurl}}/A11.pdf) &nbsp; | [Linux devices]({{site.baseurl}}{{site.raurl}}/B11.pdf) &nbsp; | [Practical assignment lab](L11.html)
 **12** | 04-May &nbsp; | [Review]({{site.baseurl}}{{site.raurl}}/A12.pdf) &nbsp; | [Review]({{site.baseurl}}{{site.raurl}}/B12.pdf) &nbsp; | Practical assignment completion
 
 <br/>
