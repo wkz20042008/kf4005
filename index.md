@@ -16,8 +16,7 @@ it works and how to manage it.
 
 <img src="assets/images/kf4005_image.png" alt="KF4005 image" class="img-responsive center-block"/>
 
-You will be taught in well-equipped computing
-laboratories with modern operating systems that you can investigate and
+You will be taught in modern operating systems that you can investigate and
 experiment with. Your understanding of operating systems concepts and your
 practical skills in working with operating systems will be assessed in lab-based
 coursework exercises. This module will help you to develop a sound understanding
@@ -28,7 +27,7 @@ Lectures are the main vehicle for introducing fundamental concepts and
 principles and for providing context and motivation. You will be
 expected to prepare for lecture topics and deepen your understanding
 of course material by studying course texts and technical
-literature. Seminars and laboratory sessions support the lecture
+literature. Online and laboratory sessions support the lecture
 programme by providing you with opportunities to identify and
 apply appropriate techniques for the application and implementation of
 a variety of OS services.
@@ -89,18 +88,18 @@ change during the course of the module.
 
 | Week   | W/c   | Lecture 1   | Lecture 2   | Practical   |
 | :----: | :---: | :---------: | :---------: | :---------: |
-**1** | 27-Jan &nbsp; | [Introduction and overview]({{site.baseurl}}{{site.raurl}}/A01.pdf) &nbsp; | [Introduction and overview]({{site.baseurl}}{{site.raurl}}/B01.pdf) &nbsp; | [Introduction to Virtual Machine and Tools](L01.html)
-**2** | 03-Feb &nbsp; | [Linux command line]({{site.baseurl}}{{site.raurl}}/B02.pdf) &nbsp; <br/> Reading: [SHO16, Chp. 1-6, 9]({{site.baseurl}}{{site.raurl}}/TLCL.pdf) | [C programming for OS]({{site.baseurl}}{{site.raurl}}/A02.pdf) | [Learning the Linux command line](L02.html)
-**3** | 10-Feb &nbsp; | [C programming for OS]({{site.baseurl}}{{site.raurl}}/B03.pdf) &nbsp; <br/> Reading: [SHO16, Chp. 24, 25, 27]({{site.baseurl}}{{site.raurl}}/TLCL.pdf)| [Shell scripts]({{site.baseurl}}{{site.raurl}}/A03.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 4](http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-intro.pdf) | [Writing shell scripts](L03.html)
-**4** | 17-Feb &nbsp; | [Introduction to SQL]({{site.baseurl}}{{site.raurl}}/A04.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 7](http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched.pdf)| [Introduction to SQL]({{site.baseurl}}{{site.raurl}}/B04.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 5](http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-api.pdf)| [Shell functions](L04.html)
-**5** | 24-Feb &nbsp; | [Processes]({{site.baseurl}}{{site.raurl}}/A05.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 13](http://pages.cs.wisc.edu/~remzi/OSTEP/vm-intro.pdf)| [Processes]({{site.baseurl}}{{site.raurl}}/B05.pdf) &nbsp; <br/> Reading: [SHO16, pp 118-121, 496-502]({{site.baseurl}}{{site.raurl}}/TLCL.pdf)| [SQL practical](L05.html)
-**6** | 02-Mar &nbsp; | [Process + thread]({{site.baseurl}}{{site.raurl}}/A06.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 15](http://pages.cs.wisc.edu/~remzi/OSTEP/vm-mechanism.pdf)| [Process + thread]({{site.baseurl}}{{site.raurl}}/B06.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 26](http://pages.cs.wisc.edu/~remzi/OSTEP/threads-intro.pdf), [A-D15 Chp. 27.1-2](http://pages.cs.wisc.edu/~remzi/OSTEP/threads-api.pdf) | [Exercises in C programming](L06.html)
-**7** | 09-Mar &nbsp; | [Memory management]({{site.baseurl}}{{site.raurl}}/A07.pdf) | [Memory management]({{site.baseurl}}{{site.raurl}}/B07.pdf) | [Linux IPC and pipes](L07.html)
-**8** | 16-Mar &nbsp; | [Storage management&nbsp;1]({{site.baseurl}}{{site.raurl}}/A08.pdf) &nbsp; <br/> Reading: [AD-15 Chp. 39](http://pages.cs.wisc.edu/~remzi/OSTEP/file-intro.pdf) | [Linux file system]({{site.baseurl}}{{site.raurl}}/B08.pdf) &nbsp; | [Processes and memory management](L08.html)
-**9** | 23-Mar &nbsp; | [Storage management&nbsp;2]({{site.baseurl}}{{site.raurl}}/A09.pdf) &nbsp; <br/> Reading: [SGG12 Chp. 11] | [More shell - text processing]({{site.baseurl}}{{site.raurl}}/B09.pdf) &nbsp; <br/> Reading: [SHO16, Chp. 19, 20]({{site.baseurl}}{{site.raurl}}/TLCL.pdf) | [Working with file systems](L09.html)
-**10** | 20-Apr &nbsp; | [Protection and security&nbsp;1]({{site.baseurl}}{{site.raurl}}/A10.pdf) &nbsp; | [Linux protection and security]({{site.baseurl}}{{site.raurl}}/B10.pdf) &nbsp; | [Shell - text processing](L10.html)
-**11** | 27-Apr &nbsp; | [Protection and security&nbsp;2]({{site.baseurl}}{{site.raurl}}/A11.pdf) &nbsp; | [Linux devices]({{site.baseurl}}{{site.raurl}}/B11.pdf) &nbsp; | [Practical assignment lab](L11.html)
-**12** | 04-May &nbsp; | [Review]({{site.baseurl}}{{site.raurl}}/A12.pdf) &nbsp; | [Review]({{site.baseurl}}{{site.raurl}}/B12.pdf) &nbsp; | Practical assignment completion
+**1** | 25-Jan &nbsp; | [Introduction and overview]({{site.baseurl}}{{site.raurl}}/A01.pdf) &nbsp; | [Introduction and overview]({{site.baseurl}}{{site.raurl}}/B01.pdf) &nbsp; | [Introduction to Virtual Machine and Tools](L01.html)
+**2** | 01-Feb &nbsp; | [Linux command line]({{site.baseurl}}{{site.raurl}}/B02.pdf) &nbsp; <br/> Reading: [SHO16, Chp. 1-6, 9]({{site.baseurl}}{{site.raurl}}/TLCL.pdf) | [C programming for OS]({{site.baseurl}}{{site.raurl}}/A02.pdf) | [Learning the Linux command line](L02.html)
+**3** | 08-Feb &nbsp; | [C programming for OS]({{site.baseurl}}{{site.raurl}}/B03.pdf) &nbsp; <br/> Reading: [SHO16, Chp. 24, 25, 27]({{site.baseurl}}{{site.raurl}}/TLCL.pdf)| [Shell scripts]({{site.baseurl}}{{site.raurl}}/A03.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 4](http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-intro.pdf) | [Writing shell scripts](L03.html)
+**4** | 15-Feb &nbsp; | [Introduction to SQL]({{site.baseurl}}{{site.raurl}}/A04.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 7](http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched.pdf)| [Introduction to SQL]({{site.baseurl}}{{site.raurl}}/B04.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 5](http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-api.pdf)| [Shell functions](L04.html)
+**5** | 22-Feb &nbsp; | [Processes]({{site.baseurl}}{{site.raurl}}/A05.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 13](http://pages.cs.wisc.edu/~remzi/OSTEP/vm-intro.pdf)| [Processes]({{site.baseurl}}{{site.raurl}}/B05.pdf) &nbsp; <br/> Reading: [SHO16, pp 118-121, 496-502]({{site.baseurl}}{{site.raurl}}/TLCL.pdf)| [SQL practical](L05.html)
+**6** | 01-Mar &nbsp; | [Process + thread]({{site.baseurl}}{{site.raurl}}/A06.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 15](http://pages.cs.wisc.edu/~remzi/OSTEP/vm-mechanism.pdf)| [Process + thread]({{site.baseurl}}{{site.raurl}}/B06.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 26](http://pages.cs.wisc.edu/~remzi/OSTEP/threads-intro.pdf), [A-D15 Chp. 27.1-2](http://pages.cs.wisc.edu/~remzi/OSTEP/threads-api.pdf) | [Exercises in C programming](L06.html)
+**7** | 08-Mar &nbsp; | [Memory management]({{site.baseurl}}{{site.raurl}}/A07.pdf) | [Memory management]({{site.baseurl}}{{site.raurl}}/B07.pdf) | [Linux IPC and pipes](L07.html)
+**8** | 15-Mar &nbsp; | [Storage management&nbsp;1]({{site.baseurl}}{{site.raurl}}/A08.pdf) &nbsp; <br/> Reading: [AD-15 Chp. 39](http://pages.cs.wisc.edu/~remzi/OSTEP/file-intro.pdf) | [Linux file system]({{site.baseurl}}{{site.raurl}}/B08.pdf) &nbsp; | [Processes and memory management](L08.html)
+**9** | 22-Mar &nbsp; | [Storage management&nbsp;2]({{site.baseurl}}{{site.raurl}}/A09.pdf) &nbsp; <br/> Reading: [SGG12 Chp. 11] | [More shell - text processing]({{site.baseurl}}{{site.raurl}}/B09.pdf) &nbsp; <br/> Reading: [SHO16, Chp. 19, 20]({{site.baseurl}}{{site.raurl}}/TLCL.pdf) | [Working with file systems](L09.html)
+**10** | 19-Apr &nbsp; | [Protection and security&nbsp;1]({{site.baseurl}}{{site.raurl}}/A10.pdf) &nbsp; | [Linux protection and security]({{site.baseurl}}{{site.raurl}}/B10.pdf) &nbsp; | [Shell - text processing](L10.html)
+**11** | 26-Apr &nbsp; | [Protection and security&nbsp;2]({{site.baseurl}}{{site.raurl}}/A11.pdf) &nbsp; | [Linux devices]({{site.baseurl}}{{site.raurl}}/B11.pdf) &nbsp; | [Practical assignment lab](L11.html)
+**12** | 03-May &nbsp; | [Review]({{site.baseurl}}{{site.raurl}}/A12.pdf) &nbsp; | [Review]({{site.baseurl}}{{site.raurl}}/B12.pdf) &nbsp; | Practical assignment completion
 
 <br/>
 
