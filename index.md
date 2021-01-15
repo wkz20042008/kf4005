@@ -39,15 +39,15 @@ a variety of OS services.
 |---|:---|
 |Lecturer &nbsp;  | [Kezhi Wang](https://www.northumbria.ac.uk/about-us/our-staff/w/kezhi-wang/)|
 |Lecturer      | [Bo Wei](https://www.northumbria.ac.uk/about-us/our-staff/w/bo-wei/)|
+|Lecturer      | [Suleman Khan](https://www.northumbria.ac.uk/about-us/our-staff/k/suleman-khan/)|
 
 
 ## Teaching Arrangements
 
 |   |    |
 |---|:---|
-**Lecture 1** &nbsp;| Tue 10.00 - 12.00 NBD 252
-**Lab/Seminar**       | Thu 15.00-17.00 CIS 202
-**Lab/Seminar**       | Fri 11.00-13.00 CIS 202
+**Lecture** &nbsp;| See your time table
+**Lab/Online Session**       | See your time table
 
 
 <p class="text-info">
@@ -89,7 +89,7 @@ change during the course of the module.
 
 | Week   | W/c   | Lecture 1   | Lecture 2   | Practical   |
 | :----: | :---: | :---------: | :---------: | :---------: |
-**1** | 27-Jan &nbsp; | [Introduction and overview]({{site.baseurl}}{{site.raurl}}/A01.pdf) &nbsp; | [Introduction and overview]({{site.baseurl}}{{site.raurl}}/B01.pdf) &nbsp; | [Introduction to lab environment and tools](L01.html)
+**1** | 27-Jan &nbsp; | [Introduction and overview]({{site.baseurl}}{{site.raurl}}/A01.pdf) &nbsp; | [Introduction and overview]({{site.baseurl}}{{site.raurl}}/B01.pdf) &nbsp; | [Introduction to Virtual Machine and Tools](L01.html)
 **2** | 03-Feb &nbsp; | [Linux command line]({{site.baseurl}}{{site.raurl}}/B02.pdf) &nbsp; <br/> Reading: [SHO16, Chp. 1-6, 9]({{site.baseurl}}{{site.raurl}}/TLCL.pdf) | [C programming for OS]({{site.baseurl}}{{site.raurl}}/A02.pdf) | [Learning the Linux command line](L02.html)
 **3** | 10-Feb &nbsp; | [C programming for OS]({{site.baseurl}}{{site.raurl}}/B03.pdf) &nbsp; <br/> Reading: [SHO16, Chp. 24, 25, 27]({{site.baseurl}}{{site.raurl}}/TLCL.pdf)| [Shell scripts]({{site.baseurl}}{{site.raurl}}/A03.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 4](http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-intro.pdf) | [Writing shell scripts](L03.html)
 **4** | 17-Feb &nbsp; | [Introduction to SQL]({{site.baseurl}}{{site.raurl}}/A04.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 7](http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched.pdf)| [Introduction to SQL]({{site.baseurl}}{{site.raurl}}/B04.pdf) &nbsp; <br/> Reading: [A-D15 Chp. 5](http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-api.pdf)| [Shell functions](L04.html)
