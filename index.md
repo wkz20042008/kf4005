@@ -19,15 +19,12 @@ it works and how to manage it.
 You will be taught in modern operating systems that you can investigate and
 experiment with. Your understanding of operating systems concepts and your
 practical skills in working with operating systems will be assessed in lab-based
-coursework exercises. This module will help you to develop a sound understanding
+coursework exercises (Virtual machine). This module will help you to develop a sound understanding
 of a key component in any computing system and will inform your thinking at
 every stage of your computing career.
 
-Lectures are the main vehicle for introducing fundamental concepts and
-principles and for providing context and motivation. You will be
-expected to prepare for lecture topics and deepen your understanding
-of course material by studying course texts and technical
-literature. Online and laboratory sessions support the lecture
+Recorded Lectures are the main vehicle for introducing fundamental concepts and
+principles and for providing context and motivation. Online and laboratory sessions support the lecture
 programme by providing you with opportunities to identify and
 apply appropriate techniques for the application and implementation of
 a variety of OS services.
@@ -50,9 +47,8 @@ a variety of OS services.
 
 
 <p class="text-info">
-You should attend lecture session and <em>one</em> of the
-lab/seminar sessions every week. Refer to your personal timetable to identify
-the lab session that you should attend.
+You should look at lecture recordings and attend 
+lab and online session.
 </p>
 
 ## Synopsis
@@ -133,9 +129,8 @@ class="icon-upload-alt"></i>Download Assignment Specification</a>
 
 ## Reading List
 
-There is no essential textbook for this module. [SGG14] is an excellent
-introduction to operating systems in general and can be used to supplement the
-slides for the Lecture A stream of the module. [A-D15] also covers much of this
+There is no essential textbook for this module. [SGG12] is an excellent
+introduction to operating systems in general and can be used to supplement the module. [A-D15] also covers much of this
 material and has the advantage of being available *free online*. The other
 recommended books and papers give useful information on parts of the syllabus
 only.
